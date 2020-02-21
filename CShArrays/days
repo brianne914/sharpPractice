@@ -10,7 +10,7 @@ namespace Pluralsight.BegCShCollections.DaysOfWeek
     {
         static void Main(string[] args)
         {
-            string[] DaysOfWeek = {
+            string[] daysOfWeek = {
                 "Monday",
                 "Tuesday",
                 "Wednesday",
@@ -19,7 +19,7 @@ namespace Pluralsight.BegCShCollections.DaysOfWeek
                 "Saturday",
                 "Sunday"
             };
-            foreach (string day in DaysOfWeek)
+            foreach (string day in daysOfWeek)
             {
                 Console.WriteLine(day);
             }
